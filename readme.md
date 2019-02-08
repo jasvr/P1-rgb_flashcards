@@ -6,6 +6,11 @@ Memorize and quiz yourself on three HTML color codes in RGB and Hex.
 Getting Started
 In the home page click the "Let's Find Out" button to enter the site. 
 
+![Alt text](img/screenshot_homepage.png "Homepage")
+![Alt text](img/screenshot_cards.png "Homepage")
+
+
+
 Prerequisites
 Have very basic understanding of CSS and Color Science 
 
