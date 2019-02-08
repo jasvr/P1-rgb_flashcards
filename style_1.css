@@ -12,17 +12,21 @@ font-family: 'Karla', sans-serif
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color:purple;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: white;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+  background-color:  purple;
   border: 1px solid #fff;
+  border-radius: 10px;
+  border: 2px solid white;
+
+
 }
 
 
@@ -47,6 +51,13 @@ h1{
   font-family: 'Karla', sans-serif;
   font-weight: 700;
   font-size: 65px;
+
+}
+
+p{
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
 
 }
 .navbar-brand{
