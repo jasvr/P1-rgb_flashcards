@@ -1,8 +1,3 @@
-/*
-font-family: 'Karla', sans-serif
-*/
-
-
 
 /*
  * Globals
@@ -59,9 +54,6 @@ p{
   font-weight: 400;
   font-size: 15px;
 
-}
-.navbar-brand{
-margin-block-start: 0%;
 }
 
 .lead{
