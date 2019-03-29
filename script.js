@@ -1,4 +1,9 @@
-var card = document.querySelector('.jscard');
-card.addEventListener( 'click', function() {
-  card.classList.toggle('is-flipped');
-});
+$('.jscard').justFlipIt({
+  FlipX: true
+  
+}); 
+
+
+
+
+
