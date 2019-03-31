@@ -1,0 +1,41 @@
+body{
+	background-image: url("../img/rgb-background.jpg");
+}
+
+/*--Question Container--*/
+
+#question_container{
+	/* display: flex;
+	flex-direction: row; */
+
+	flex-wrap: wrap;
+	position: inherit;
+	right: 0;
+	bottom: 50px;
+	left: 0;
+	text-align: center;
+
+}
+#input-field {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 1.1rem 1.5rem;
+	color:black;
+	font-size: 1em;
+	font-family: 'Karla', sans-serif;
+}
+
+#button{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 1rem 1.5rem;
+	color:black;
+	font-size: 1em;
+
+}
+#user_question{
+	padding: 25px;
+	font-size: 1.5em;
+	color:black;
+
+}
