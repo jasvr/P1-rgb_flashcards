@@ -1,5 +1,7 @@
 body{
 	background-image: url("../img/rgb-background.jpg");
+	font-family: 'Karla', sans-serif;
+
 }
 
 /*--Question Container--*/
@@ -22,7 +24,6 @@ body{
 	padding: 1.1rem 1.5rem;
 	color:black;
 	font-size: 1em;
-	font-family: 'Karla', sans-serif;
 }
 
 #button{
@@ -38,4 +39,8 @@ body{
 	font-size: 1.5em;
 	color:black;
 
+}
+
+#after_submit{
+	visibility: hidden;
 }

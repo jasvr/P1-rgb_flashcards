@@ -1,22 +1,22 @@
-$('.jscard').justFlipIt({
-  FlipX: true
-  
-}); 
+function check(){
 
+var question1 = document.rgbtest.question1.value;
+var question2 = document.rgbtest.question2.value;
+var question3 = document.rgbtest.question3.value;
 
-const StarWars = ['Han', 'C3PO', 'R2D2', 'Luke', 'Leia', 'Anakin'];
+var correct = 0;
 
-for (i = 0; i < StarWars.length; i++){
-
-  console.log(i + "." + StarWars[i]);
+if (question1 == "yesm"){
+  correct++;
+}
+if (question2 == "yesn"){
+  correct++;
+}
+if (question3 == "yeso"){
+  correct++;
 }
 
-
-questions = ['What is the red in RGB?', 'What is green in RGB?', 'What is blue in RGB?']
-
-set state 
-
-display that's correct!
-
-display You'll get it! 
+  document.getElementById("after_submit").style.visibility ="visible";
+  document.getElementById("final_score").innerHTML = "You got " + correct + " correct.";
+}
 
