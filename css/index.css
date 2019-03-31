@@ -1,8 +1,3 @@
-
-/*
- * Globals
- */
-
 /* Links */
 a,
 a:focus,
@@ -40,17 +35,16 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-family: 'Karla', sans-serif;
 }
 
 h1{
-  font-family: 'Karla', sans-serif;
   font-weight: 700;
   font-size: 65px;
 
 }
 
 p{
-  font-family: 'Karla', sans-serif;
   font-weight: 400;
   font-size: 15px;
 

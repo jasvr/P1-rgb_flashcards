@@ -18,30 +18,32 @@
             alt="Paint coming out of laptop screen - HEX & RGB" height="100" width="200"></a>
       </header>
 
-      <!-- <div id="question_container">
-         <div id="user_question">Question goes here!!!!!!!!!!!!!!!!!!!!!!!</div> -->
+      <div id="question_container">
+         <div id="user_question">Question goes here!!!!!!!!!!!!!!!!!!!!!!!</div>
          <form id="rgbtest" name="rgbtest">
 
             <p>What is red in RGB?</p>
             <input type="textbox" id="input-field" name= "question1"></input>
 
             <p>What is green in RGB?</p>
-                <input type="radio" id="mc" name="question2" value="yesn">yesn<br>
-                <input type="radio" id="mc" name="question2" value="yesn">(255,0,0)<br>
-                <input type="radio" id="mc" name="question2" value="yes">(255,0,0)<br>
 
-            <p>Select the color (255,0,0) belongs to:</p>
-                <input type="radio" id="mc" name="question3" value="yeso">yeso<br>
-                <input type="radio" id="mc" name="question3" value="yes">green<br>
-                <input type="radio" id="mc" name="question3" value="yes"> blue<br>
+                <input type="radio" id="mc" name="question2" value="(0,128,0)">(0,128,0)<br>
+                <input type="radio" id="mc" name="question2" value="red">(255,0,0)<br>
+                <input type="radio" id="mc" name="question2" value="yellow">(255,255,0)<br>
+
+            <p>Select the color (0,0,255) belongs to:</p>
+                <input type="radio" id="mc" name="question3" value="red">red<br>
+                <input type="radio" id="mc" name="question3" value="green">green<br>
+                <input type="radio" id="mc" name="question3" value="blue"> blue<br>
 
             <button id="button" type="button" value="Done" onclick="check();">Submit</button>
          </form>
 
          <div id="after_submit">
+             <p id="message"></p>
              <p id="final_score"></p>
-         <!-- </div>
-      </div> -->
+         </div>
+      </div>
       <script src="script.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
    </body>
