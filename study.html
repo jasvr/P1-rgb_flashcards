@@ -25,25 +25,32 @@
             <div class="maincontainer">
                 <div class="thecard ">
                     <div class="thefront_Red">Red</div>
-                    <div class="theback_Red"> 
+                    <div class="theback_Red">
+                         <form id="rgbtest" name="rgbtest">
+                            <input type="radio" id="answer_1_radio" name="question" value=""><label
+                                id="answer_1_label"></label><br>
+                            <input type="radio" id="answer_2_radio" name="question" value=""><label
+                                id="answer_2_label"></label><br>
+                            <input type="radio" id="answer_3_radio" name="question" value=""><label
+                                id="answer_3_label"></label><br>
+                        </form>
 
-                    <input type="radio" id="answer_1_radio" value=""><label id="answer_1_label"></label><br> 
-                    <input type="radio" id="answer_2_radio" value=""><label id="answer_2_label"></label><br>
-                    <input type="radio" id="answer_3_radio" value=""><label id="answer_3_label"></label><br>
-    
-
-                </div>
+                    </div>
 
                 </div>
             </div>
 
-        <div id="button_container">
-                <button name="initial_test" id="button" onclick="startGame()"><a href="#">Let's test your skills!</a></button>
-    </div>
+            <div id="button_container">
+                <button name="initial_test" id="button" onclick="startGame()"><a href="#">Let's test your
+                        skills!</a></button>
+                <button name="check_first_question" id="button" onclick="checkAnswer()"><a href="#">Check your
+                        answer</a></button>
+
+            </div>
 
 
-    <script src="script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+            <script src="script.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </body>
 
 </html>
